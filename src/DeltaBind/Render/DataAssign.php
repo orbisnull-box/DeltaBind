@@ -6,6 +6,6 @@ interface DataAssign
 {
     public function assignVar($name, $value);
 
-    public function assignArray($array);
+    public function assignArray(array $array);
 
 }
